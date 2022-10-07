@@ -1,0 +1,44 @@
+.devWithout {
+  grid-column: full-start/full-end;
+  background-color: var(--color-purple);
+
+  padding: 4rem 015rem;
+  margin-top: 3rem;
+}
+
+.devPartUnder a {
+  background-color: var(--color-green);
+}
+
+.devPart1,
+.devPart2 {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+  color: white;
+}
+
+.devPart1 img,
+.devPart2 img {
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.357);
+  object-fit: cover;
+  height: 30rem;
+  width: 40%;
+}
+
+.devPart1 img {
+  margin-top: -6rem;
+}
+
+.devPartUnder {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: flex-start;
+}
+
+.devWithout span {
+  display: inline-block;
+  width: 100%;
+}

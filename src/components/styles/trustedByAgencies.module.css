@@ -1,0 +1,35 @@
+.trusted {
+  grid-column: center-start/center-end;
+  text-align: center;
+  padding: 8rem 0;
+
+  background-image: url(../../../public/trusted1.jpeg),
+    url(../../../public/supported2.jpeg), url(../../../public/IMG_3220.HEIC),
+    url(../../../public/trusted4.jpeg), url(../../../public/trusted6.jpeg),
+    url(../../../public/IMG_3129.HEIC);
+
+  background-repeat: no-repeat;
+  background-clip: calc(50% 50%);
+  background-position: 10% 25%, 5% 50%, 10% 75%, 90% 25%, 95% 50%, 90% 75%;
+  background-size: 4%;
+  border-radius: 50%, 50%, 50%, 50%, 50%, 50%;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  align-items: center;
+}
+
+.trusted h2 span {
+  display: inline-block;
+  width: 100%;
+}
+
+.trusted p {
+  width: 50%;
+  color: rgba(15, 20, 48, 0.315);
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 4rem rgba(0, 0, 0, 0.186);
+}

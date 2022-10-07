@@ -1,0 +1,23 @@
+.supported {
+  grid-column: center-start/center-end;
+  text-align: center;
+
+  padding: 0 0 0 0;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.supported p {
+  color: rgba(15, 20, 48, 0.636);
+  padding: 0 15rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 10%;
+  object-fit: cover;
+}

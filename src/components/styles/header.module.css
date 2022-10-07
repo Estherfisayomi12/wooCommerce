@@ -1,0 +1,48 @@
+.header {
+  grid-column: center-start/full-end;
+
+  display: flex;
+}
+
+.headerFirstHalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.headerSecondHalf img {
+  mix-blend-mode: darken;
+}
+
+.h1 {
+  line-height: 1.2;
+  font-size: 3rem;
+}
+
+.p {
+  font-size: 0.8rem;
+}
+
+.purple {
+  background-color: var(--color-purple);
+  padding: 0.8rem 1.8rem;
+  border-radius: 3rem;
+  color: white;
+}
+
+.purple:hover {
+  filter: contrast(3);
+}
+
+.purple:focus {
+  color: white;
+}
+
+.blue {
+  color: blue;
+}
+
+.blue:hover {
+  filter: contrast(1);
+}

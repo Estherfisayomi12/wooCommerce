@@ -1,0 +1,70 @@
+.nav {
+  grid-column: full-start / full-end;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar1 {
+  display: flex;
+}
+
+.logo {
+  font-weight: bolder;
+  margin-right: 3rem;
+}
+
+.logo a {
+  cursor: not-allowed;
+}
+
+.brown,
+.purpleButton {
+  border-top-left-radius: 0.4rem;
+  padding: 0.3rem 1rem;
+  color: white;
+}
+
+.brown {
+  background-color: rgb(153, 90, 142);
+  margin-right: 0.1rem;
+}
+
+a,
+a:active,
+a:link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 0.9rem;
+}
+
+.productsLists {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0 1.5rem;
+  color: var(--color-text);
+}
+
+li a:hover,
+.navbar2Link:hover {
+  color: var(--color-purple);
+}
+
+.purpleButton {
+  background-color: var(--color-purple);
+  margin-left: 0.5rem;
+}
+
+.purpleButton a:active,
+.purpleButton a:focus {
+  color: white;
+}
+
+.purpleButton:hover {
+  filter: contrast(3);
+  color: white;
+}

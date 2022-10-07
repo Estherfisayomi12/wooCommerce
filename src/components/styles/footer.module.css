@@ -1,0 +1,11 @@
+.footer {
+  grid-column: full-start/full-end;
+  padding: 1rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  color: rgba(15, 20, 48, 0.686);
+}

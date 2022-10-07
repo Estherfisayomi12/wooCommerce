@@ -1,0 +1,23 @@
+.customize {
+  grid-column: full-start/full-end;
+  background-color: var(--color-deep-purple);
+  padding: 3rem 15rem 3rem 15rem;
+
+  /* display: flex;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: 70% 30%;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.customize h4 {
+  color: white;
+}
+
+.customize a {
+  background-color: transparent;
+  border: 1px solid white;
+  word-wrap: 0;
+  text-align: center;
+}

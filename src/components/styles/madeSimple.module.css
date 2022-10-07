@@ -1,0 +1,41 @@
+.madeSimple {
+  grid-column: center-start/center-end;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+  padding: 3rem 0;
+}
+
+.madeSimplepic {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  text-align: start;
+  grid-gap: 4rem;
+}
+
+.madeSimplepic1 {
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
+.madeSimplepic1 img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.madeSimple h2 span {
+  display: inline-block;
+  width: 100%;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.h4 {
+  font-size: 1.3rem;
+}

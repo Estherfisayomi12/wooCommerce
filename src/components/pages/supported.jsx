@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styles from "../styles/supported.module.css";
-import trustedStyles from "../styles/trustedByAgencies.module.css";
 import madeSimpleStyle from "../styles/madeSimple.module.css";
 
 class Supported extends Component {

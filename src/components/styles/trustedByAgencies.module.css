@@ -9,7 +9,6 @@
     url(../../../public/IMG_3129.HEIC);
 
   background-repeat: no-repeat;
-  background-clip: calc(50% 50%);
   background-position: 10% 25%, 5% 50%, 10% 75%, 90% 25%, 95% 50%, 90% 75%;
   background-size: 4%;
   border-radius: 50%, 50%, 50%, 50%, 50%, 50%;
